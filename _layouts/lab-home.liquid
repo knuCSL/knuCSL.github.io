@@ -4,7 +4,7 @@
     {% include head.liquid %}
   </head>
 
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
     <main role="main">
       <div class="lab-hero">
@@ -17,7 +17,7 @@
             <h1 class="lab-hero-title">{{ site.title }}</h1>
             <div class="lab-hero-desc">{{ content }}</div>
             <div class="lab-hero-links">
-              <a href="{{ '/members/prof/' | relative_url }}">Prof. &rarr;</a>
+              <a href="{{ '/members/prof/' | relative_url }}">Professor &rarr;</a>
               <a href="{{ '/members/' | relative_url }}">Members &rarr;</a>
               <a href="{{ '/publications/' | relative_url }}">Publications &rarr;</a>
             </div>
