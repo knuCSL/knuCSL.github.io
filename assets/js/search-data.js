@@ -9,33 +9,33 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "dropdown-prof",
-              title: "Prof.",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/members/prof/";
-              },
-            },{id: "dropdown-postgraduate",
+  },{id: "nav-prof",
+          title: "Prof.",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/members/prof/";
+          },
+        },{id: "dropdown-postgraduate",
               title: "Postgraduate",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/members/postgraduate/";
+                window.location.href = "/members/#postgraduate";
               },
             },{id: "dropdown-undergraduate",
               title: "Undergraduate",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/members/undergraduate/";
+                window.location.href = "/members/#undergraduate";
               },
             },{id: "dropdown-alumni",
               title: "Alumni",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/members/alumni/";
+                window.location.href = "/members/#alumni";
               },
             },{id: "nav-publications",
           title: "Publications",
@@ -43,20 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-climate-monitoring",
-          title: "Climate Monitoring",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/monitoring/";
           },
         },{id: "post-a-post-with-plotly-js",
         
