@@ -9,7 +9,7 @@ nav_order: 1
 ## Principal Investigator
 
 <div style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:2rem;">
-  <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="Namyoung Kang" style="width:180px; border-radius:8px; flex-shrink:0;">
+  <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="Namyoung Kang" style="width:260px; border-radius:8px; flex-shrink:0;">
   <div>
     <h3 style="margin-top:0;">Namyoung Kang</h3>
     <p>Associate Professor<br>Department of Geography, Kyungpook National University</p>
