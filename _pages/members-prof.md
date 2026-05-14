@@ -18,6 +18,7 @@ nav_order: 1
     <ul>
       <li>Office: Room 233, College of Social Sciences, KNU</li>
       <li>Email: <a href="mailto:nkang4@knu.ac.kr">nkang4@knu.ac.kr</a></li>
+      <li>ORCID: <a href="https://orcid.org/0000-0003-3018-9038" target="_blank">0000-0003-3018-9038</a></li>
     </ul>
   </div>
 </div>

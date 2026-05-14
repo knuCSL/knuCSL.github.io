@@ -17,6 +17,7 @@ nav: false
     <ul>
       <li>연구실: 사회과학대학 233호</li>
       <li>이메일: <a href="mailto:nkang4@knu.ac.kr">nkang4@knu.ac.kr</a></li>
+      <li>ORCID: <a href="https://orcid.org/0000-0003-3018-9038" target="_blank">0000-0003-3018-9038</a></li>
     </ul>
   </div>
 </div>
