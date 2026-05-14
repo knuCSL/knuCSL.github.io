@@ -1,0 +1,44 @@
+---
+---
+<div class="col-md-4">
+  <div class="pub-card h-100">
+    {% if entry.preview %}
+      <div class="pub-card-img">
+        {% if entry.preview contains '://' %}
+          <img src="{{ entry.preview }}" alt="{{ entry.title }}">
+        {% else %}
+          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          <img src="{{ entry_path | relative_url }}" alt="{{ entry.title }}">
+        {% endif %}
+      </div>
+    {% else %}
+      <div class="pub-card-img pub-card-img-placeholder">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+    {% endif %}
+    <div class="pub-card-body">
+      <div class="pub-card-title">{{ entry.title }}</div>
+      <div class="pub-card-authors">
+        {% assign limit = 3 %}
+        {% for author in entry.author_array limit: limit %}
+          {% assign author_last = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' %}
+          {% if site.scholar.last_name contains author_last %}
+            <em>{{ author.first }} {{ author_last }}</em>
+          {% else %}
+            {{ author.first }} {{ author_last }}
+          {% endif %}
+          {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+        {% if entry.author_array.size > limit %} et al.{% endif %}
+      </div>
+      <div class="pub-card-journal">
+        {% if entry.type == 'article' %}
+          <em>{{ entry.journal }}</em>
+        {% elsif entry.type == 'inproceedings' %}
+          <em>{{ entry.booktitle }}</em>
+        {% endif %}
+        {% if entry.year %}, {{ entry.year }}{% endif %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -83,6 +83,68 @@
   padding-bottom: 4rem;
 }
 
+.pub-card {
+  background: var(--global-card-bg-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 62, 131, 0.12);
+    transform: translateY(-2px);
+  }
+
+  &-img {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    background: #f0f0ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &-placeholder {
+      color: var(--global-text-color-light);
+      font-size: 2.5rem;
+      opacity: 0.3;
+    }
+  }
+
+  &-body {
+    padding: 1.25rem;
+  }
+
+  &-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  &-authors {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.4rem;
+  }
+
+  &-journal {
+    font-size: 0.8rem;
+    color: #{v.$navy-color};
+  }
+}
+
 .lab-section-header {
   display: flex;
   align-items: baseline;
