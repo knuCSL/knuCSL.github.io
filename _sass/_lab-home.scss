@@ -83,6 +83,21 @@
   padding-bottom: 4rem;
 }
 
+.recent-pubs-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+
+  .pub-card-item {
+    flex: 1;
+    min-width: 0;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
 .pub-card {
   background: var(--global-card-bg-color);
   border-radius: 12px;
