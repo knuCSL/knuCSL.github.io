@@ -2,7 +2,7 @@
 
 .lab-hero {
   display: flex;
-  height: calc(100vh - 57px);
+  height: 100vh;
 
   &-image {
     flex: 0 0 65%;
@@ -30,7 +30,7 @@
   }
 
   &-label {
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--global-text-color-light);
@@ -38,7 +38,7 @@
   }
 
   &-title {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 700;
     color: #{v.$navy-color};
     line-height: 1.2;
@@ -46,7 +46,7 @@
   }
 
   &-desc {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     color: var(--global-text-color-light);
     line-height: 1.8;
     margin-bottom: 2.5rem;
@@ -64,7 +64,7 @@
     padding-top: 1.5rem;
 
     a {
-      font-size: 0.92rem;
+      font-size: 1rem;
       letter-spacing: 0.04em;
       color: var(--global-text-color);
       text-decoration: none;

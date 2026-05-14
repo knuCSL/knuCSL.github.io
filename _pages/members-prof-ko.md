@@ -59,10 +59,8 @@ nav: false
   <li>1999 – 2001 &nbsp; 연세대학교 지구환경연구소 연구원</li>
   <li>1996 – 1999 &nbsp; 공군기상전대 중앙기상부 예보관(장교)</li>
 </ul>
+<p style="margin-top:1rem; margin-bottom:0.25rem;"><strong>자격증</strong></p>
+<ul>
+  <li>2007 &nbsp; 기술사(기상예보) / 한국산업인력공단</li>
+</ul>
 </details>
-
----
-
-### 자격증
-
-- 2007 &nbsp; 기술사(기상예보) / 한국산업인력공단

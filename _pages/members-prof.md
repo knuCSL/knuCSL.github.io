@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Prof.
+title: Professor
 permalink: /members/prof/
 nav: true
 nav_order: 1
@@ -60,10 +60,8 @@ Climatology, Climate Change, Typhoon, Weather Information Service
   <li>1999 – 2001 &nbsp; Researcher, Institute of Earth Environment, Yonsei University</li>
   <li>1996 – 1999 &nbsp; Forecast Officer, Central Meteorological Division, ROK Air Force</li>
 </ul>
+<p style="margin-top:1rem; margin-bottom:0.25rem;"><strong>Certification</strong></p>
+<ul>
+  <li>2007 &nbsp; Professional Engineer (Weather Forecasting), Human Resources Development Service of Korea</li>
+</ul>
 </details>
-
----
-
-### Certification
-
-- 2007 &nbsp; Professional Engineer (Weather Forecasting), Human Resources Development Service of Korea
