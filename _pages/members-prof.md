@@ -6,8 +6,6 @@ nav: true
 nav_order: 1
 ---
 
-## Principal Investigator
-
 <div style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:2rem;">
   <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="Namyoung Kang" style="width:260px; border-radius:8px; flex-shrink:0;">
   <div>
