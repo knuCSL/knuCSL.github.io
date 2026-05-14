@@ -32,12 +32,19 @@
         {% if entry.author_array.size > limit %} et al.{% endif %}
       </div>
       <div class="pub-card-journal">
-        {% if entry.type == 'article' %}
-          <em>{{ entry.journal }}</em>
-        {% elsif entry.type == 'inproceedings' %}
-          <em>{{ entry.booktitle }}</em>
+        {% if entry.doi %}
+          {% assign pub_link = entry.doi | prepend: 'https://doi.org/' %}
+        {% elsif entry.url %}
+          {% assign pub_link = entry.url %}
+        {% else %}
+          {% assign pub_link = '' %}
         {% endif %}
-        {% if entry.year %}, {{ entry.year }}{% endif %}
+        {% capture journal_text %}<em>{% if entry.type == 'article' %}{{ entry.journal }}{% elsif entry.type == 'inproceedings' %}{{ entry.booktitle }}{% endif %}</em>{% if entry.year %}, {{ entry.year }}{% endif %}{% endcapture %}
+        {% if pub_link != '' %}
+          <a href="{{ pub_link }}" target="_blank" rel="noopener noreferrer">{{ journal_text }}</a>
+        {% else %}
+          {{ journal_text }}
+        {% endif %}
       </div>
     </div>
   </div>
