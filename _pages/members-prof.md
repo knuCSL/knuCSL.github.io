@@ -2,7 +2,8 @@
 layout: page
 title: Prof.
 permalink: /members/prof/
-nav: false
+nav: true
+nav_order: 1
 ---
 
 ## Principal Investigator

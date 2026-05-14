@@ -18,24 +18,26 @@
             <h1 class="lab-hero-title">{{ site.title }}</h1>
             <div class="lab-hero-desc">{{ content }}</div>
             <div class="lab-hero-links">
+              <a href="{{ '/members/prof/' | relative_url }}">Prof. &rarr;</a>
               <a href="{{ '/members/' | relative_url }}">Members &rarr;</a>
               <a href="{{ '/publications/' | relative_url }}">Publications &rarr;</a>
-              <a href="{{ '/projects/' | relative_url }}">Projects &rarr;</a>
-              <a href="{{ '/monitoring/' | relative_url }}">Climate Monitoring &rarr;</a>
             </div>
           </div>
         </div>
       </div>
 
       <div class="container lab-below-hero">
-        {% if page.announcements and page.announcements.enabled %}
-          <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
-          {% include news.liquid limit=true %}
-        {% endif %}
+        <div class="lab-section-header">
+          <h2>Recent Publications</h2>
+          <a href="{{ '/publications/' | relative_url }}" class="lab-all-link">All &rarr;</a>
+        </div>
+        {% include recent_papers.liquid %}
 
-        {% if page.selected_papers %}
-          <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a></h2>
-          {% include selected_papers.liquid %}
+        {% if page.announcements and page.announcements.enabled %}
+          <div class="lab-section-header" style="margin-top: 3rem;">
+            <h2>News</h2>
+          </div>
+          {% include news.liquid limit=true %}
         {% endif %}
       </div>
     </main>

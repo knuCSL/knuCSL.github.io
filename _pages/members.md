@@ -2,16 +2,14 @@
 layout: page
 title: Members
 nav: true
-nav_order: 1
+nav_order: 2
 dropdown: true
 children:
-  - title: Prof.
-    permalink: /members/prof/
   - title: Postgraduate
-    permalink: /members/postgraduate/
+    permalink: /members/#postgraduate
   - title: Undergraduate
-    permalink: /members/undergraduate/
+    permalink: /members/#undergraduate
   - title: divider
   - title: Alumni
-    permalink: /members/alumni/
+    permalink: /members/#alumni
 ---

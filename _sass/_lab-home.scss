@@ -83,6 +83,32 @@
   padding-bottom: 4rem;
 }
 
+.lab-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.75rem;
+
+  h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: var(--global-text-color);
+  }
+
+  .lab-all-link {
+    font-size: 0.85rem;
+    color: var(--global-theme-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .lab-hero {
     flex-direction: column;
