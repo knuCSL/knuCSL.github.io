@@ -32,6 +32,18 @@ html.lab-home body {
   display: flex;
   height: 100vh;
 
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 38%;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
   &-image {
     position: absolute;
     inset: 0;
@@ -43,14 +55,14 @@ html.lab-home body {
       height: 100%;
       object-fit: cover;
       object-position: center;
-      filter: blur(3px);
+      filter: blur(2px);
       transform: scale(1.05);
     }
   }
 
   &-panel {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     flex: 0 0 38%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.78) 55%, rgba(255, 255, 255, 0));
     display: flex;
