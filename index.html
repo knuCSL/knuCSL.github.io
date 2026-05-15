@@ -8,14 +8,31 @@
         if (!root) return;
         var hero = root.querySelector(".lab-hero");
         var scrolling = false;
+        var duration = 900; // ms — 길수록 느리고 부드럽게
+
+        function ease(t) {
+          // ease-in-out cubic
+          return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+        }
 
         function goTo(target) {
           if (scrolling) return;
           scrolling = true;
-          root.scrollTo({ top: target, behavior: "smooth" });
-          setTimeout(function () {
-            scrolling = false;
-          }, 800);
+          var start = root.scrollTop;
+          var change = target - start;
+          var startTime = null;
+
+          function step(timestamp) {
+            if (!startTime) startTime = timestamp;
+            var progress = Math.min((timestamp - startTime) / duration, 1);
+            root.scrollTop = start + change * ease(progress);
+            if (progress < 1) {
+              requestAnimationFrame(step);
+            } else {
+              scrolling = false;
+            }
+          }
+          requestAnimationFrame(step);
         }
 
         root.addEventListener(
@@ -46,8 +63,7 @@
           function (e) {
             var diff = touchStartY - e.changedTouches[0].clientY;
             if (Math.abs(diff) < 30) return;
-            var heroH = hero.offsetHeight;
-            goTo(diff > 0 ? heroH : 0);
+            goTo(diff > 0 ? hero.offsetHeight : 0);
           },
           { passive: true }
         );
