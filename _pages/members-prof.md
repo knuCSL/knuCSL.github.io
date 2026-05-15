@@ -44,24 +44,24 @@ Climatology, Climate Change, Typhoon, Weather Information Service
 ### Professional Experience
 
 <table style="border-collapse:collapse; width:100%;">
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Sep 2019 – Present</td><td style="padding-bottom:0.5rem;">Professor, Department of Geography, Kyungpook National University</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Feb 2024 – Present</td><td style="padding-bottom:0.5rem;">Disaster Advisory Committee Member, YTN</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Feb 2025 – Present</td><td style="padding-bottom:0.5rem;">Board Member, Korean Geographical Society</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Jul 2022 – Present</td><td style="padding-bottom:0.5rem;">Policy Advisory Member, Korea Meteorological Administration</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Sep 2019 – Sep 2022</td><td style="padding-bottom:0.5rem;">Adjunct Professor, Department of Marine, Earth, and Atmospheric Sciences, North Carolina State University, USA</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Mar 2020 – Feb 2021</td><td style="padding-bottom:0.5rem;">Committee Member, Natural Disaster Safety Division, National Science Advisory Council</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Feb 2018 – Aug 2019</td><td style="padding-bottom:0.5rem;">Vice Chair, Training and Research Coordination Working Group, UN ESCAP/WMO Typhoon Committee</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Sep 2019 – Present</td><td style="padding-bottom:0.25rem; line-height:1.6;">Professor, Department of Geography, Kyungpook National University</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Feb 2024 – Present</td><td style="padding-bottom:0.25rem; line-height:1.6;">Disaster Advisory Committee Member, YTN</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Feb 2025 – Present</td><td style="padding-bottom:0.25rem; line-height:1.6;">Board Member, Korean Geographical Society</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Jul 2022 – Present</td><td style="padding-bottom:0.25rem; line-height:1.6;">Policy Advisory Member, Korea Meteorological Administration</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Sep 2019 – Sep 2022</td><td style="padding-bottom:0.25rem; line-height:1.6;">Adjunct Professor, Department of Marine, Earth, and Atmospheric Sciences, North Carolina State University, USA</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Mar 2020 – Feb 2021</td><td style="padding-bottom:0.25rem; line-height:1.6;">Committee Member, Natural Disaster Safety Division, National Science Advisory Council</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Feb 2018 – Aug 2019</td><td style="padding-bottom:0.25rem; line-height:1.6;">Vice Chair, Training and Research Coordination Working Group, UN ESCAP/WMO Typhoon Committee</td></tr>
 </table>
 
 <details>
 <summary style="cursor:pointer; color:var(--global-theme-color); font-size:0.9rem; margin-top:0.5rem;">Show more</summary>
 <table style="border-collapse:collapse; width:100%; margin-top:0.75rem;">
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Jun 2024 – Present</td><td style="padding-bottom:0.5rem;">Expert Member, National Technical Qualification Committee</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Mar 2020 – Present</td><td style="padding-bottom:0.5rem;">Advisory Member, Korea Meteorological Industry Technology Institute</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">Jan 2021 – Feb 2022</td><td style="padding-bottom:0.5rem;">Editor, Korean Association of Regional Geographers</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">May 2014 – Sep 2019</td><td style="padding-bottom:0.5rem;">Deputy Director, National Typhoon Center, Korea Meteorological Administration</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">1999 – 2001</td><td style="padding-bottom:0.5rem;">Researcher, Institute of Earth Environment, Yonsei University</td></tr>
-  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">1996 – 1999</td><td style="padding-bottom:0.5rem;">Forecast Officer, Central Meteorological Division, ROK Air Force</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Jun 2024 – Present</td><td style="padding-bottom:0.25rem; line-height:1.6;">Expert Member, National Technical Qualification Committee</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Mar 2020 – Present</td><td style="padding-bottom:0.25rem; line-height:1.6;">Advisory Member, Korea Meteorological Industry Technology Institute</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">Jan 2021 – Feb 2022</td><td style="padding-bottom:0.25rem; line-height:1.6;">Editor, Korean Association of Regional Geographers</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">May 2014 – Sep 2019</td><td style="padding-bottom:0.25rem; line-height:1.6;">Deputy Director, National Typhoon Center, Korea Meteorological Administration</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">1999 – 2001</td><td style="padding-bottom:0.25rem; line-height:1.6;">Researcher, Institute of Earth Environment, Yonsei University</td></tr>
+  <tr><td style="white-space:nowrap; width:170px; padding-right:1.5rem; vertical-align:top; padding-bottom:0.25rem; line-height:1.6;">1996 – 1999</td><td style="padding-bottom:0.25rem; line-height:1.6;">Forecast Officer, Central Meteorological Division, ROK Air Force</td></tr>
 </table>
 <p style="margin-top:1rem; margin-bottom:0.25rem;"><strong>Certification</strong></p>
 <table style="border-collapse:collapse; width:100%;">
