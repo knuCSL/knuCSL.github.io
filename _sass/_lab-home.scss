@@ -43,7 +43,7 @@ html.lab-home body {
       height: 100%;
       object-fit: cover;
       object-position: center;
-      filter: blur(5px);
+      filter: blur(3px);
       transform: scale(1.05);
     }
   }
@@ -52,7 +52,7 @@ html.lab-home body {
     position: relative;
     z-index: 1;
     flex: 0 0 38%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.88) 60%, rgba(255, 255, 255, 0));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.78) 55%, rgba(255, 255, 255, 0));
     display: flex;
     align-items: center;
     padding: 3rem 3.5rem;

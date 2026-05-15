@@ -42,26 +42,28 @@ nav: false
 
 ### 경력
 
-- 2019.9 – 현재 &nbsp; 경북대학교 지리학과 교수
-- 2024.2 – 현재 &nbsp; YTN 재난위원
-- 2025.2 – 현재 &nbsp; 대한지리학회 이사
-- 2022.7 – 현재 &nbsp; 기상청 정책자문위원
-- 2019.9 – 2022.9 &nbsp; 미 노스캐롤라이나주립대학교 해양·지질·대기과학과 겸임교수
-- 2020.3 – 2021.2 &nbsp; 국민생활과학자문단 자연재해안전분과위원
-- 2018.2 – 2019.8 &nbsp; UN ESCAP/WMO 태풍위원회 훈련연구조정분과 부의장
+<table style="border-collapse:collapse; width:100%;">
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2019.9 – 현재</td><td style="padding-bottom:0.5rem;">경북대학교 지리학과 교수</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2024.2 – 현재</td><td style="padding-bottom:0.5rem;">YTN 재난위원</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2025.2 – 현재</td><td style="padding-bottom:0.5rem;">대한지리학회 이사</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2022.7 – 현재</td><td style="padding-bottom:0.5rem;">기상청 정책자문위원</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2019.9 – 2022.9</td><td style="padding-bottom:0.5rem;">미 노스캐롤라이나주립대학교 해양·지질·대기과학과 겸임교수</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2020.3 – 2021.2</td><td style="padding-bottom:0.5rem;">국민생활과학자문단 자연재해안전분과위원</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2018.2 – 2019.8</td><td style="padding-bottom:0.5rem;">UN ESCAP/WMO 태풍위원회 훈련연구조정분과 부의장</td></tr>
+</table>
 
 <details>
 <summary style="cursor:pointer; color:var(--global-theme-color); font-size:0.9rem; margin-top:0.5rem;">더 보기</summary>
-<ul style="margin-top:0.75rem;">
-  <li>2024.6 – 현재 &nbsp; 국가기술자격전문위원</li>
-  <li>2020.3 – 현재 &nbsp; 한국기상산업기술원 자문위원</li>
-  <li>2021.1 – 2022.2 &nbsp; 한국지역지리학회 편집이사</li>
-  <li>2014.5 – 2019.9 &nbsp; 기상청 국가태풍센터 예보팀장</li>
-  <li>1999 – 2001 &nbsp; 연세대학교 지구환경연구소 연구원</li>
-  <li>1996 – 1999 &nbsp; 공군기상전대 중앙기상부 예보관(장교)</li>
-</ul>
+<table style="border-collapse:collapse; width:100%; margin-top:0.75rem;">
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2024.6 – 현재</td><td style="padding-bottom:0.5rem;">국가기술자격전문위원</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2020.3 – 현재</td><td style="padding-bottom:0.5rem;">한국기상산업기술원 자문위원</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2021.1 – 2022.2</td><td style="padding-bottom:0.5rem;">한국지역지리학회 편집이사</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">2014.5 – 2019.9</td><td style="padding-bottom:0.5rem;">기상청 국가태풍센터 예보팀장</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">1999 – 2001</td><td style="padding-bottom:0.5rem;">연세대학교 지구환경연구소 연구원</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top; padding-bottom:0.5rem;">1996 – 1999</td><td style="padding-bottom:0.5rem;">공군기상전대 중앙기상부 예보관(장교)</td></tr>
+</table>
 <p style="margin-top:1rem; margin-bottom:0.25rem;"><strong>자격증</strong></p>
-<ul>
-  <li>2007 &nbsp; 기술사(기상예보) / 한국산업인력공단</li>
-</ul>
+<table style="border-collapse:collapse; width:100%;">
+  <tr><td style="white-space:nowrap; padding-right:2rem; vertical-align:top;">2007</td><td>기술사(기상예보) / 한국산업인력공단</td></tr>
+</table>
 </details>
