@@ -1,5 +1,15 @@
 @use "variables" as v;
 
+// Scroll-snap: only on home page (which contains .lab-hero)
+html:has(.lab-hero) {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.lab-hero {
+  scroll-snap-align: start;
+}
+
 .lab-hero {
   display: flex;
   height: 100vh;
@@ -79,6 +89,7 @@
 }
 
 .lab-below-hero {
+  scroll-snap-align: start;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
