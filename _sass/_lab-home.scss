@@ -1,16 +1,34 @@
 @use "variables" as v;
 
-// Scroll-snap: only on home page
-html.lab-home {
+// Scroll-snap: explicit scroll container on home page
+html.lab-home,
+html.lab-home body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.lab-scroll-root {
+  height: 100%;
+  overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 
-.lab-hero {
+.lab-second-section {
+  min-height: 100vh;
   scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+
+  footer.lab-footer {
+    margin-top: auto;
+  }
 }
 
 .lab-hero {
+  scroll-snap-align: start;
   display: flex;
   height: 100vh;
 
@@ -89,7 +107,6 @@ html.lab-home {
 }
 
 .lab-below-hero {
-  scroll-snap-align: start;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }

@@ -4,9 +4,9 @@
     {% include head.liquid %}
   </head>
 
-  <body class="sticky-bottom-footer">
+  <body>
+    <div class="lab-scroll-root">
 
-    <main role="main">
       <div class="lab-hero">
         <div class="lab-hero-image">
           <img src="{{ '/assets/img/ample_main.png' | relative_url }}" alt="{{ site.title }}">
@@ -25,21 +25,24 @@
         </div>
       </div>
 
-      <div class="container lab-below-hero">
-        <div class="lab-section-header">
-          <h2>Recent Publications</h2>
-          <a href="{{ '/publications/' | relative_url }}" class="lab-all-link">All &rarr;</a>
+      <div class="lab-second-section">
+        <div class="container lab-below-hero">
+          <div class="lab-section-header">
+            <h2>Recent Publications</h2>
+            <a href="{{ '/publications/' | relative_url }}" class="lab-all-link">All &rarr;</a>
+          </div>
+          {% include recent_papers.liquid %}
         </div>
-        {% include recent_papers.liquid %}
 
+        <div class="container" style="padding-bottom: 2rem; font-size: 0.85rem; color: var(--global-text-color-light); text-align: center;">
+          Department of Geography, Kyungpook National University, 80 Daehak-ro, Buk-gu, Daegu, Republic of Korea. Tel: 053-950-5233
+        </div>
+
+        {% include footer.liquid %}
       </div>
 
-      <div class="container" style="padding-bottom: 2rem; font-size: 0.85rem; color: var(--global-text-color-light); text-align: center;">
-        Department of Geography, Kyungpook National University, 80 Daehak-ro, Buk-gu, Daegu, Republic of Korea. Tel: 053-950-5233
-      </div>
-    </main>
+    </div>
 
-    {% include footer.liquid %}
     {% include scripts.liquid %}
   </body>
 </html>
