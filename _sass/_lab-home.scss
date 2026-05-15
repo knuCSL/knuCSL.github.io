@@ -36,12 +36,15 @@ html.lab-home body {
     position: absolute;
     inset: 0;
     z-index: 0;
+    overflow: hidden;
 
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       object-position: center;
+      filter: blur(5px);
+      transform: scale(1.05);
     }
   }
 
@@ -49,13 +52,11 @@ html.lab-home body {
     position: relative;
     z-index: 1;
     flex: 0 0 38%;
-    background-color: rgba(255, 255, 255, 0.88);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.65);
     display: flex;
     align-items: center;
     padding: 3rem 3.5rem;
-    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 2px solid rgba(255, 255, 255, 0.9);
   }
 
   &-content {
