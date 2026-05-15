@@ -1,7 +1,7 @@
 @use "variables" as v;
 
-// Scroll-snap: only on home page (which contains .lab-hero)
-html:has(.lab-hero) {
+// Scroll-snap: only on home page
+html.lab-home {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
