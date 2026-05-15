@@ -28,12 +28,14 @@ html.lab-home body {
 
 .lab-hero {
   scroll-snap-align: start;
+  position: relative;
   display: flex;
   height: 100vh;
 
   &-image {
-    flex: 0 0 65%;
-    overflow: hidden;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
 
     img {
       width: 100%;
@@ -44,12 +46,16 @@ html.lab-home body {
   }
 
   &-panel {
-    flex: 0 0 35%;
-    background-color: var(--global-bg-color);
+    position: relative;
+    z-index: 1;
+    flex: 0 0 38%;
+    background-color: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     display: flex;
     align-items: center;
     padding: 3rem 3.5rem;
-    border-left: 1px solid var(--global-divider-color);
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
   }
 
   &-content {
@@ -220,20 +226,18 @@ html.lab-home body {
 
 @media (max-width: 768px) {
   .lab-hero {
-    flex-direction: column;
     height: auto;
+    min-height: 100vh;
 
     &-image {
-      flex: none;
-      height: 55vw;
-      width: 100%;
+      position: fixed;
     }
 
     &-panel {
       flex: none;
       width: 100%;
-      border-left: none;
-      border-top: 1px solid var(--global-divider-color);
+      border-right: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
       padding: 2rem 1.5rem;
     }
   }
