@@ -44,5 +44,56 @@
     </div>
 
     {% include scripts.liquid %}
+    <script>
+      (function () {
+        var root = document.querySelector(".lab-scroll-root");
+        if (!root) return;
+        var hero = root.querySelector(".lab-hero");
+        var scrolling = false;
+
+        function goTo(target) {
+          if (scrolling) return;
+          scrolling = true;
+          root.scrollTo({ top: target, behavior: "smooth" });
+          setTimeout(function () {
+            scrolling = false;
+          }, 800);
+        }
+
+        root.addEventListener(
+          "wheel",
+          function (e) {
+            e.preventDefault();
+            var heroH = hero.offsetHeight;
+            var cur = root.scrollTop;
+            if (e.deltaY > 0 && cur < heroH - 10) {
+              goTo(heroH);
+            } else if (e.deltaY < 0 && cur > 10) {
+              goTo(0);
+            }
+          },
+          { passive: false }
+        );
+
+        var touchStartY = 0;
+        root.addEventListener(
+          "touchstart",
+          function (e) {
+            touchStartY = e.touches[0].clientY;
+          },
+          { passive: true }
+        );
+        root.addEventListener(
+          "touchend",
+          function (e) {
+            var diff = touchStartY - e.changedTouches[0].clientY;
+            if (Math.abs(diff) < 30) return;
+            var heroH = hero.offsetHeight;
+            goTo(diff > 0 ? heroH : 0);
+          },
+          { passive: true }
+        );
+      })();
+    </script>
   </body>
 </html>
