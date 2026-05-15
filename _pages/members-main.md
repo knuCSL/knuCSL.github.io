@@ -48,7 +48,7 @@ nav: false
   </tbody>
 </table>
 
----
+<div style="margin-top:3rem;"></div>
 
 ## Undergraduate {#undergraduate}
 
@@ -65,7 +65,7 @@ nav: false
   </tbody>
 </table>
 
----
+<div style="margin-top:3rem;"></div>
 
 ## Alumni {#alumni}
 
