@@ -15,15 +15,24 @@
           <div class="lab-hero-content">
             <div class="lab-hero-label">Kyungpook National University</div>
             <h1 class="lab-hero-title">{{ site.title }}</h1>
+            <div class="lab-hero-subtitle">기후 과학 연구실</div>
             <div class="lab-hero-desc">{{ content }}</div>
             <div class="lab-hero-links">
               <a href="{{ '/members/prof/' | relative_url }}">Professor &rarr;</a>
               <a href="{{ '/members/' | relative_url }}">Members &rarr;</a>
               <a href="{{ '/publications/' | relative_url }}">Publications &rarr;</a>
             </div>
+            <div class="lab-hero-address">
+              Department of Geography, Kyungpook National University<br>
+              80 Daehak-ro, Buk-gu, Daegu 41566, South Korea<br>
+              Tel: +82-53-950-5233
+            </div>
           </div>
         </div>
       </div>
+
+
+
 
       <div class="lab-second-section">
         <div class="container lab-below-hero">
@@ -32,10 +41,6 @@
             <a href="{{ '/publications/' | relative_url }}" class="lab-all-link">All &rarr;</a>
           </div>
           {% include recent_papers.liquid %}
-        </div>
-
-        <div class="container" style="padding-bottom: 2rem; font-size: 0.85rem; color: var(--global-text-color-light); text-align: center;">
-          Department of Geography, Kyungpook National University, 80 Daehak-ro, Buk-gu, Daegu, Republic of Korea. Tel: 053-950-5233
         </div>
 
         {% include footer.liquid %}
