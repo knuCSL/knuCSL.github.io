@@ -13,20 +13,45 @@
         </div>
         <div class="lab-hero-panel">
           <div class="lab-hero-content">
+            <div style="margin-bottom:1.5rem;">
+              {% if page.ko %}
+              <a href="{{ '/' | relative_url }}" style="font-size:0.85rem; color:var(--global-theme-color); text-decoration:none; border:1px solid var(--global-theme-color); padding:0.25rem 0.6rem; border-radius:4px;">English</a>
+              {% else %}
+              <a href="{{ '/ko/' | relative_url }}" style="font-size:0.85rem; color:var(--global-theme-color); text-decoration:none; border:1px solid var(--global-theme-color); padding:0.25rem 0.6rem; border-radius:4px;">한국어</a>
+              {% endif %}
+            </div>
+            {% if page.ko %}
+            <div class="lab-hero-label">경북대학교</div>
+            <h1 class="lab-hero-title">기후 과학 연구실</h1>
+            <div class="lab-hero-subtitle">{{ site.title }}</div>
+            {% else %}
             <div class="lab-hero-label">Kyungpook National University</div>
             <h1 class="lab-hero-title">{{ site.title }}</h1>
             <div class="lab-hero-subtitle">기후 과학 연구실</div>
+            {% endif %}
             <div class="lab-hero-desc">{{ content }}</div>
             <div class="lab-hero-links">
+              {% if page.ko %}
+              <a href="{{ '/members/prof-ko/' | relative_url }}">교수 <span style="font-size:0.65em;">▶</span></a>
+              <a href="{{ '/members-ko/' | relative_url }}">연구원 <span style="font-size:0.65em;">▶</span></a>
+              <a href="{{ '/publications-ko/' | relative_url }}">연구 논문 <span style="font-size:0.65em;">▶</span></a>
+              {% else %}
               <a href="{{ '/members/prof/' | relative_url }}">Professor <span style="font-size:0.65em;">▶</span></a>
               <a href="{{ '/members/' | relative_url }}">Members <span style="font-size:0.65em;">▶</span></a>
               <a href="{{ '/publications/' | relative_url }}">Publications <span style="font-size:0.65em;">▶</span></a>
+              {% endif %}
             </div>
             <div class="lab-hero-address">
               <img src="{{ '/assets/img/15-1.svg' | relative_url }}" alt="KNU Logo">
+              {% if page.ko %}
+              경북대학교 지리학과<br>
+              대구광역시 북구 대학로 80 (우: 41566)<br>
+              Tel: +82-53-950-5233
+              {% else %}
               Department of Geography, Kyungpook National University<br>
               80 Daehak-ro, Buk-gu, Daegu 41566, South Korea<br>
               Tel: +82-53-950-5233
+              {% endif %}
             </div>
           </div>
         </div>
@@ -38,8 +63,13 @@
       <div class="lab-second-section">
         <div class="container lab-below-hero">
           <div class="lab-section-header">
+            {% if page.ko %}
+            <h2>최근 논문</h2>
+            <a href="{{ '/publications-ko/' | relative_url }}" class="lab-all-link">전체 보기 &rarr;</a>
+            {% else %}
             <h2>Recent Publications</h2>
             <a href="{{ '/publications/' | relative_url }}" class="lab-all-link">All &rarr;</a>
+            {% endif %}
           </div>
           {% include recent_papers.liquid %}
         </div>

@@ -5,7 +5,7 @@ permalink: /members/prof-ko/
 nav: false
 ---
 
-<div style="text-align:right; margin-bottom:1rem;">
+<div style="margin-bottom:1rem;">
   <a href="{{ '/members/prof/' | relative_url }}" style="font-size:0.85rem; color:var(--global-theme-color); text-decoration:none; border:1px solid var(--global-theme-color); padding:0.25rem 0.6rem; border-radius:4px;">English</a>
 </div>
 
