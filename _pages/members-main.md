@@ -80,7 +80,7 @@ nav: false
   <tbody>
     <tr>
       <td style="padding:0.75rem 0.8rem; white-space:nowrap;">Rok Seong &nbsp;<span style="font-size:0.8rem; color:var(--global-text-color-light);">성록</span></td>
-      <td style="padding:0.75rem 0.8rem;">M.S. (2022)</td>
+      <td style="padding:0.75rem 0.8rem;">M.S. (2026)</td>
       <td style="padding:0.75rem 0.8rem;">Korea Institute of Ocean Science &amp; Technology (KIOST)</td>
     </tr>
   </tbody>

@@ -13,7 +13,7 @@ nav: false
   <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="강남영" style="width:260px; border-radius:8px; flex-shrink:0;">
   <div>
     <h3 style="margin-top:0;">강남영</h3>
-    <p>교수, 경북대학교 지리학과</p>
+    <p>부교수<br>경북대학교 지리학과</p>
     <ul>
       <li>연구실: 사회과학대학 233호</li>
       <li>이메일: <a href="mailto:nkang4@knu.ac.kr">nkang4@knu.ac.kr</a></li>
@@ -26,7 +26,7 @@ nav: false
 
 ### 연구분야
 
-기후학, 기후변화, 태풍, 기상정보
+기후학, 기후변화와 위험, 태풍, 기상정보
 
 ---
 
@@ -44,7 +44,7 @@ nav: false
 
 <table style="border-collapse:collapse; width:100%;">
   <colgroup><col style="width:55px"><col style="width:18px"><col style="width:55px"><col></colgroup>
-  <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">2019.9</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">현재</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">경북대학교 지리학과 교수</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">2019.9</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">현재</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">경북대학교 지리학과 부교수</td></tr>
   <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">2024.2</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">현재</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">YTN 재난위원</td></tr>
   <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">2025.2</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">현재</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">대한지리학회 이사</td></tr>
   <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">2022.7</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">현재</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">기상청 정책자문위원</td></tr>

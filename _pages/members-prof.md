@@ -14,7 +14,7 @@ nav_order: 1
   <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="Namyoung Kang" style="width:260px; border-radius:8px; flex-shrink:0;">
   <div>
     <h3 style="margin-top:0;">Namyoung Kang</h3>
-    <p>Professor, Department of Geography, Kyungpook National University</p>
+    <p>Associate Professor<br>Department of Geography, Kyungpook National University</p>
     <ul>
       <li>Office: Room 233, College of Social Sciences, KNU</li>
       <li>Email: <a href="mailto:nkang4@knu.ac.kr">nkang4@knu.ac.kr</a></li>
@@ -27,7 +27,7 @@ nav_order: 1
 
 ### Research Area
 
-Climatology, Climate Change, Typhoon, Weather Information Service
+Climatology, Climate Change & Risks, Typhoon, Weather Information Service
 
 ---
 
@@ -46,7 +46,7 @@ Climatology, Climate Change, Typhoon, Weather Information Service
 {% assign d = "white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;" %}
 <table style="border-collapse:collapse; width:100%;">
   <colgroup><col style="width:72px"><col style="width:18px"><col style="width:78px"><col></colgroup>
-  <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Sep 2019</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Present</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Professor, Department of Geography, Kyungpook National University</td></tr>
+  <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Sep 2019</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Present</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Associate Professor, Department of Geography, Kyungpook National University</td></tr>
   <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Feb 2024</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Present</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Disaster Advisory Committee Member, YTN</td></tr>
   <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Feb 2025</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Present</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Board Member, Korean Geographical Society</td></tr>
   <tr><td style="white-space:nowrap; padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Jul 2022</td><td style="padding-right:0.4rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">–</td><td style="white-space:nowrap; padding-right:1.2rem; vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Present</td><td style="vertical-align:top; padding-bottom:0.4rem; line-height:1.6;">Policy Advisory Member, Korea Meteorological Administration</td></tr>
