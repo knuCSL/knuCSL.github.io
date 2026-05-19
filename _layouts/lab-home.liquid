@@ -5,11 +5,14 @@
   </head>
 
   <body>
-    {% include header.liquid %}
-
     <div class="lab-scroll-root">
 
       <div class="lab-hero">
+        {% if page.ko %}
+        <a class="lab-hero-lang-btn" href="{{ '/' | relative_url }}">English</a>
+        {% else %}
+        <a class="lab-hero-lang-btn" href="{{ '/ko/' | relative_url }}">한국어</a>
+        {% endif %}
         <div class="lab-hero-image">
           <img src="{{ '/assets/img/ample_main.png' | relative_url }}" alt="{{ site.title }}">
         </div>
