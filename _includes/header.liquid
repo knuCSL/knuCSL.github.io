@@ -1,13 +1,14 @@
 <header>
+  <!-- Fixed language toggle (same position as main page) -->
+  {% if page.en_url %}
+  <a href="{{ page.en_url | relative_url }}" class="lab-hero-lang-btn">English</a>
+  {% elsif page.ko_url %}
+  <a href="{{ page.ko_url | relative_url }}" class="lab-hero-lang-btn">한국어</a>
+  {% endif %}
+
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      <!-- Language Toggle -->
-      {% if page.en_url %}
-      <a href="{{ page.en_url | relative_url }}" style="font-size:0.82rem; color:var(--global-theme-color); text-decoration:none; border:1px solid var(--global-theme-color); padding:0.2rem 0.55rem; border-radius:4px; margin-right:0.6rem; flex-shrink:0; white-space:nowrap;">English</a>
-      {% elsif page.ko_url %}
-      <a href="{{ page.ko_url | relative_url }}" style="font-size:0.82rem; color:var(--global-theme-color); text-decoration:none; border:1px solid var(--global-theme-color); padding:0.2rem 0.55rem; border-radius:4px; margin-right:0.6rem; flex-shrink:0; white-space:nowrap;">한국어</a>
-      {% endif %}
       <a class="navbar-brand title font-weight-bold" href="{{ site.baseurl }}/">
         {{- site.title -}}
       </a>
@@ -34,6 +35,9 @@
             <!-- KO nav links -->
             <li class="nav-item {% if page.url contains 'prof-ko' %}active{% endif %}">
               <a class="nav-link" href="{{ '/members/prof-ko/' | relative_url }}">교수</a>
+            </li>
+            <li class="nav-item {% if page.url contains 'members-ko' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/members-ko/' | relative_url }}">연구원</a>
             </li>
             <li class="nav-item {% if page.url contains 'publications-ko' %}active{% endif %}">
               <a class="nav-link" href="{{ '/publications-ko/' | relative_url }}">연구 논문</a>
