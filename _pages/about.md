@@ -2,6 +2,7 @@
 layout: lab-home
 title: about
 permalink: /
+ko_url: /ko/
 
 selected_papers: true
 

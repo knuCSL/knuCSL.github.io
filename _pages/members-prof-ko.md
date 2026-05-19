@@ -3,11 +3,8 @@ layout: page
 title: 교수
 permalink: /members/prof-ko/
 nav: false
+en_url: /members/prof/
 ---
-
-<div style="margin-bottom:1rem;">
-  <a href="{{ '/members/prof/' | relative_url }}" style="font-size:0.85rem; color:var(--global-theme-color); text-decoration:none; border:1px solid var(--global-theme-color); padding:0.25rem 0.6rem; border-radius:4px;">English</a>
-</div>
 
 <div style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:2.5rem;">
   <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="강남영" style="width:260px; border-radius:8px; flex-shrink:0;">

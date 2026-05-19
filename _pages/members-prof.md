@@ -4,11 +4,8 @@ title: Professor
 permalink: /members/prof/
 nav: true
 nav_order: 1
+ko_url: /members/prof-ko/
 ---
-
-<div style="margin-bottom:1rem;">
-  <a href="{{ '/members/prof-ko/' | relative_url }}" style="font-size:0.85rem; color:var(--global-theme-color); text-decoration:none; border:1px solid var(--global-theme-color); padding:0.25rem 0.6rem; border-radius:4px;">한국어</a>
-</div>
 
 <div style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:2.5rem;">
   <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="Namyoung Kang" style="width:260px; border-radius:8px; flex-shrink:0;">

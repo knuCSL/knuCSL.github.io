@@ -9,8 +9,19 @@ html.lab-home body {
   padding: 0;
 }
 
+html.lab-home body {
+  display: flex;
+  flex-direction: column;
+}
+
+html.lab-home #navbar {
+  flex-shrink: 0;
+  position: relative !important;
+}
+
 .lab-scroll-root {
-  height: 100%;
+  flex: 1;
+  min-height: 0;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
@@ -30,7 +41,7 @@ html.lab-home body {
   scroll-snap-align: start;
   position: relative;
   display: flex;
-  height: 100vh;
+  height: 100%;
 
   &::before {
     content: "";
@@ -262,7 +273,7 @@ html.lab-home body {
 @media (max-width: 768px) {
   .lab-hero {
     height: auto;
-    min-height: 100vh;
+    min-height: 100%;
 
     &-image {
       position: fixed;
