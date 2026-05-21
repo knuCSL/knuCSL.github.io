@@ -143,7 +143,16 @@
           function (e) {
             var diff = touchStartY - e.changedTouches[0].clientY;
             if (Math.abs(diff) < 30) return;
-            goTo(diff > 0 ? hero.offsetHeight : 0);
+            var heroH = hero.offsetHeight;
+            var cur = root.scrollTop;
+            if (cur < heroH - 10) {
+              // In hero: snap to second section or back to top
+              goTo(diff > 0 ? heroH : 0);
+            } else if (cur <= heroH + 50 && diff < 0) {
+              // Near top of second section, swiping back up: snap to hero
+              goTo(0);
+            }
+            // Deeper in second section: let native scroll handle it
           },
           { passive: true }
         );
