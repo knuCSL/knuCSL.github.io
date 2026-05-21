@@ -350,24 +350,4 @@ html.lab-home body {
       display: none;
     }
   }
-
-  .lab-below-hero {
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-  }
-
-  .pub-card {
-    &-img {
-      display: none;
-    }
-
-    &-body {
-      padding: 0.75rem;
-    }
-
-    &-title {
-      -webkit-line-clamp: 2;
-      font-size: 0.85rem;
-    }
-  }
 }
