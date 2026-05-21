@@ -7,7 +7,7 @@ nav_order: 1
 ko_url: /members/prof-ko/
 ---
 
-<div style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:2.5rem;">
+<div class="lab-prof-header" style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:2.5rem;">
   <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="Namyoung Kang" style="width:260px; border-radius:8px; flex-shrink:0;">
   <div>
     <h3 style="margin-top:0;">Namyoung Kang</h3>

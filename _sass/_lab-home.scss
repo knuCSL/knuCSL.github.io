@@ -277,6 +277,18 @@ html.lab-home body {
   }
 }
 
+// Professor page: stack photo + info vertically on mobile
+.lab-prof-header {
+  @media (max-width: 768px) {
+    flex-direction: column !important;
+
+    img {
+      width: 200px !important;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 // Mobile: simplified layout
 @media (max-width: 768px) {
   // Hide the fixed lang button on navbar pages (header.liquid);
@@ -303,12 +315,39 @@ html.lab-home body {
       background: rgba(255, 255, 255, 0.88);
     }
 
-    &-address {
-      display: none;
+    &-label {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    &-title {
+      font-size: 2.6rem;
+      margin-bottom: 0.3rem;
+    }
+
+    &-subtitle {
+      font-size: 1.3rem;
+      margin-bottom: 0.7rem;
     }
 
     &-desc {
-      margin-bottom: 1.5rem;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    &-links {
+      padding-top: 0.75rem;
+      gap: 0.5rem;
+      margin-bottom: 0;
+
+      a {
+        font-size: 1.1rem;
+      }
+    }
+
+    &-address {
+      display: none;
     }
   }
 }

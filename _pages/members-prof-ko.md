@@ -6,7 +6,7 @@ nav: false
 en_url: /members/prof/
 ---
 
-<div style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:2.5rem;">
+<div class="lab-prof-header" style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:2.5rem;">
   <img src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="강남영" style="width:260px; border-radius:8px; flex-shrink:0;">
   <div>
     <h3 style="margin-top:0;">강남영</h3>
