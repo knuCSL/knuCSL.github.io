@@ -1,5 +1,5 @@
 <header>
-  <!-- Fixed language toggle (same position as main page) -->
+  <!-- Fixed language toggle — desktop only (hidden on mobile via CSS) -->
   {% if page.en_url %}
   <a href="{{ page.en_url | relative_url }}" class="lab-hero-lang-btn">English</a>
   {% elsif page.ko_url %}
@@ -7,7 +7,7 @@
   {% endif %}
 
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-md {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       <a class="navbar-brand title font-weight-bold" href="{{ site.baseurl }}/">
         {{- site.title -}}
@@ -41,6 +41,10 @@
             </li>
             <li class="nav-item {% if page.url contains 'publications-ko' %}active{% endif %}">
               <a class="nav-link" href="{{ '/publications-ko/' | relative_url }}">연구 논문</a>
+            </li>
+            <!-- Mobile only: EN/KO switch inside menu -->
+            <li class="nav-item d-md-none" style="border-top:1px solid var(--global-divider-color); margin-top:0.5rem; padding-top:0.5rem;">
+              <a class="nav-link" href="{{ page.en_url | relative_url }}">English</a>
             </li>
           {% else %}
             {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -103,9 +107,14 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
+            <!-- Mobile only: EN/KO switch inside menu -->
+            {% if page.ko_url %}
+            <li class="nav-item d-md-none" style="border-top:1px solid var(--global-divider-color); margin-top:0.5rem; padding-top:0.5rem;">
+              <a class="nav-link" href="{{ page.ko_url | relative_url }}">한국어</a>
+            </li>
+            {% endif %}
           {% endif %}
           {% if site.search_enabled %}
-            <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
                 <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
@@ -113,7 +122,6 @@
             </li>
           {% endif %}
           {% if site.enable_darkmode %}
-            <!-- Toggle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="fa-half-sun-moon" id="light-toggle-system"></i>
@@ -127,7 +135,6 @@
     </div>
   </nav>
   {% if site.enable_progressbar %}
-    <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
       <div class="progress-container">
         <span class="progress-bar"></span>

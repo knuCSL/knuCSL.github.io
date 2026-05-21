@@ -20,6 +20,9 @@ html.lab-home body {
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
+  background: var(--global-bg-color);
+  position: relative;
+  z-index: 2;
 
   footer.lab-footer {
     margin-top: auto;
@@ -276,19 +279,28 @@ html.lab-home body {
 
 // Mobile: simplified layout
 @media (max-width: 768px) {
+  // Hide the fixed lang button on navbar pages (header.liquid);
+  // the home page button is inside .lab-hero, not header, so it stays.
+  header > .lab-hero-lang-btn {
+    display: none;
+  }
+
   .lab-hero {
     height: auto;
     min-height: 100vh;
 
+    // Use absolute (not fixed) so image doesn't bleed into next section
     &-image {
-      position: fixed;
+      position: absolute;
     }
 
     &-panel {
       flex: none;
       width: 100%;
       border-right: none;
-      padding: 4.5rem 1.5rem 2rem;
+      padding: 4rem 1.5rem 2rem;
+      // Solid background so text is readable without relying on blur
+      background: rgba(255, 255, 255, 0.88);
     }
 
     &-address {
