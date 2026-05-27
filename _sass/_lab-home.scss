@@ -30,17 +30,17 @@ html.lab-home body {
 }
 
 .lab-hero-lang-btn {
-  position: fixed;
+  position: absolute;
   top: 1rem;
   left: 1rem;
   z-index: 1100;
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   color: var(--global-theme-color);
   text-decoration: none;
-  border: 1px solid var(--global-theme-color);
-  padding: 0.2rem 0.55rem;
+  border: 1.5px solid var(--global-theme-color);
+  padding: 0.3rem 0.8rem;
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.82);
 }
 
 .lab-hero {
@@ -291,11 +291,6 @@ html.lab-home body {
 
 // Mobile: simplified layout
 @media (max-width: 768px) {
-  // Hide the fixed lang button on navbar pages (header.liquid);
-  // the home page button is inside .lab-hero, not header, so it stays.
-  header > .lab-hero-lang-btn {
-    display: none;
-  }
 
   .lab-hero {
     height: auto;
@@ -347,7 +342,12 @@ html.lab-home body {
     }
 
     &-address {
-      display: none;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+
+      img {
+        height: 2rem;
+      }
     }
   }
 }
