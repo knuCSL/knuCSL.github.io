@@ -180,23 +180,24 @@
   }
 }
 
-// Language toggle button inside navbar (non-home pages)
-.lab-nav-lang-btn {
-  display: inline-block !important;
-  font-size: 0.88rem !important;
-  color: var(--global-theme-color) !important;
-  border: 1.5px solid var(--global-theme-color) !important;
-  padding: 0.22rem 0.7rem !important;
-  border-radius: 4px !important;
-  background: transparent !important;
-  line-height: 1.5 !important;
-  margin-left: 0.4rem;
+// Language toggle button — beside brand name in navbar (non-home pages)
+.lab-nav-brand-lang-btn {
+  font-size: 0.88rem;
+  color: var(--global-theme-color);
+  text-decoration: none;
+  border: 1.5px solid var(--global-theme-color);
+  padding: 0.22rem 0.7rem;
+  border-radius: 4px;
+  background: transparent;
+  margin-left: 0.6rem;
+  white-space: nowrap;
+  align-self: center;
   transition: background 0.2s ease, color 0.2s ease;
 
   &:hover {
-    color: white !important;
-    background: var(--global-theme-color) !important;
-    text-decoration: none !important;
+    color: white;
+    background: var(--global-theme-color);
+    text-decoration: none;
   }
 }
 

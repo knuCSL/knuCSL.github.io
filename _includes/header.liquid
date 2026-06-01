@@ -5,6 +5,11 @@
       <a class="navbar-brand title font-weight-bold" href="{{ site.baseurl }}/">
         {{- site.title -}}
       </a>
+      {% if page.en_url %}
+      <a href="{{ page.en_url | relative_url }}" class="lab-nav-brand-lang-btn">English</a>
+      {% elsif page.ko_url %}
+      <a href="{{ page.ko_url | relative_url }}" class="lab-nav-brand-lang-btn">한국어</a>
+      {% endif %}
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -34,9 +39,6 @@
             </li>
             <li class="nav-item {% if page.url contains 'publications-ko' %}active{% endif %}">
               <a class="nav-link" href="{{ '/publications-ko/' | relative_url }}">연구 논문</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link lab-nav-lang-btn" href="{{ page.en_url | relative_url }}">English</a>
             </li>
           {% else %}
             {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -99,11 +101,6 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
-            {% if page.ko_url %}
-            <li class="nav-item">
-              <a class="nav-link lab-nav-lang-btn" href="{{ page.ko_url | relative_url }}">한국어</a>
-            </li>
-            {% endif %}
           {% endif %}
           {% if site.search_enabled %}
             <li class="nav-item">
