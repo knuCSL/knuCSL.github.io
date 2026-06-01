@@ -4,6 +4,12 @@
 
 @use "variables" as v;
 
+// Non-home pages: fixed minimum width — narrower viewports get a horizontal scrollbar
+// (Home page uses html.lab-home and has its own mobile layout)
+html:not(.lab-home) {
+  min-width: 960px;
+}
+
 body {
   display: flex;
   flex-direction: column;

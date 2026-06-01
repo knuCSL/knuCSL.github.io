@@ -1,11 +1,4 @@
 <header>
-  <!-- Fixed language toggle — desktop only (hidden on mobile via CSS) -->
-  {% if page.en_url %}
-  <a href="{{ page.en_url | relative_url }}" class="lab-hero-lang-btn">English</a>
-  {% elsif page.ko_url %}
-  <a href="{{ page.ko_url | relative_url }}" class="lab-hero-lang-btn">한국어</a>
-  {% endif %}
-
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-md {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
@@ -42,9 +35,8 @@
             <li class="nav-item {% if page.url contains 'publications-ko' %}active{% endif %}">
               <a class="nav-link" href="{{ '/publications-ko/' | relative_url }}">연구 논문</a>
             </li>
-            <!-- Mobile only: EN/KO switch inside menu -->
-            <li class="nav-item d-md-none" style="border-top:1px solid var(--global-divider-color); margin-top:0.5rem; padding-top:0.5rem;">
-              <a class="nav-link" href="{{ page.en_url | relative_url }}">English</a>
+            <li class="nav-item">
+              <a class="nav-link lab-nav-lang-btn" href="{{ page.en_url | relative_url }}">English</a>
             </li>
           {% else %}
             {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -107,10 +99,9 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
-            <!-- Mobile only: EN/KO switch inside menu -->
             {% if page.ko_url %}
-            <li class="nav-item d-md-none" style="border-top:1px solid var(--global-divider-color); margin-top:0.5rem; padding-top:0.5rem;">
-              <a class="nav-link" href="{{ page.ko_url | relative_url }}">한국어</a>
+            <li class="nav-item">
+              <a class="nav-link lab-nav-lang-btn" href="{{ page.ko_url | relative_url }}">한국어</a>
             </li>
             {% endif %}
           {% endif %}
