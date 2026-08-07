@@ -78,7 +78,7 @@ en_url: /members/
     <tr>
       <td style="padding:0.75rem 0.8rem; white-space:nowrap;">성록 &nbsp;<span style="font-size:0.8rem; color:var(--global-text-color-light);">Rok Seong</span></td>
       <td style="padding:0.75rem 0.8rem;">석사 (2026)</td>
-      <td style="padding:0.75rem 0.8rem;">대한민국 기상청</td>
+      <td style="padding:0.75rem 0.8rem;">대한민국 기상청 국가태풍센터</td>
     </tr>
   </tbody>
 </table>

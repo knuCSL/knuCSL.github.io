@@ -78,7 +78,7 @@ ko_url: /members-ko/
     <tr>
       <td style="padding:0.75rem 0.8rem; white-space:nowrap;">Rok Seong &nbsp;<span style="font-size:0.8rem; color:var(--global-text-color-light);">성록</span></td>
       <td style="padding:0.75rem 0.8rem;">M.S. (2026)</td>
-      <td style="padding:0.75rem 0.8rem;">Korea Meteorological Administration (KMA)</td>
+      <td style="padding:0.75rem 0.8rem;">Korea Meteorological Administration, National Typhoon Center</td>
     </tr>
   </tbody>
 </table>
